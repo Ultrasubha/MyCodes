@@ -22,7 +22,7 @@ int main() {
 		
 		if(namae[i+1]=="")					//displayed full
 			cout << namae[i];
-		else								//1st Character displayed
+		else							//1st Character displayed
 			cout << namae[i][0] << ".";
 	}	
 	return 0;
