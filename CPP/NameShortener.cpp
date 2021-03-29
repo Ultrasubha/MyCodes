@@ -1,4 +1,23 @@
-//coded by Subhadeep Mandal
+
+/*
+  ___________CODED BY SUBHADEEP MANDAL______________
+  
+  LICENSING:
+  GNU General Public License v3.0  .....Dated: 29.3.2021
+  (c) 2021 Guava_Slice. All rights reserved.
+  
+  OVERVIEW
+ Shortens a name such that only initial letters and
+ Surname are displayed.
+  
+  EXPECTATIONS
+  1)Subhadeep Mandal ⇒ S.Mandal.
+  2)Robert Brett Roser  ⇒ R.B.Roser.
+    
+  DRAWBACK
+  Size of name should be less than 10 words incase name is bigger than 10
+  change iteration=10 in line 28 with your preffered size
+*/
 #include <iostream>
 using namespace std;
 
