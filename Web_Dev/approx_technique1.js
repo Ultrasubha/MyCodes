@@ -18,6 +18,7 @@
     1.000569 ⇒ 1
     If you don't want this kind of approximations don't use it
 	*/
+document.write(Fixing_Mantisa_Of("6.0299999"));
 
 function Fixing_Mantisa_Of(sampul_str) {
 	var dgtcount=0;
