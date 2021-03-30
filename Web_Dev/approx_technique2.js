@@ -57,4 +57,3 @@ function Fixing_Mantisa_Of(sampul_str) {
 	else
 		return sampul_str;
 }
-}
