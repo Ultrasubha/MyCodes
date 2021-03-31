@@ -25,6 +25,15 @@
     if this is the right one for you.
 */
 
+//Add your test cases in the array and check out yourself
+var arr = ["1.0000009", "6.0299999", "0.9999999", "1.000999", "1.6666666", "1.20999998", "0.5773502691896257", "29.999999999999996"];
+
+for(i=0;i<arr.length;i++) {
+	document.write(arr[i]+" ⇒ ");
+	document.write(Fixing_Mantisa_Of(arr[i]));
+	document.write("<br>");
+}
+
 function Fixing_Mantisa_Of(sampul_str) {
 
 	if (sampul_str.includes(".")) {
