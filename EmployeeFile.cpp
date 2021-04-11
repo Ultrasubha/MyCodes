@@ -1,4 +1,15 @@
-//Coded By Subhadeep Mandal
+/*
+  ___________CODED BY SUBHADEEP MANDAL______________
+  
+  LICENSING:
+  GNU General Public License v3.0  .....Dated: 10.4.2021
+  (c) 2021 Guava_Slice. All rights reserved.
+  
+  OVERVIEW
+  This program stores the information of 4 employees in a binary file and then the information
+  of 2nd and 3rd employee is retrieved from the file.
+  */
+
 #include<iostream>
 #include<fstream>
 using namespace std;
