@@ -6,8 +6,7 @@
   (c) 2021 Guava_Slice. All rights reserved.
   
   OVERVIEW
-  This program stores the information of 4 employees in a binary file and then the information
-  of 2nd and 3rd employee is retrieved from the file.
+  This program checks information of a car from the database based on the choice provided.
   */
 
 #include<iostream>
