@@ -79,10 +79,6 @@ https://ideone.com/dRpNNS // arrays with union
 https://ideone.com/r33rG8 //Andrew string sum
 https://ideone.com/1axXDM // Andrew string combinations
 
-https://www.geeksforgeeks.org/cc-preprocessors/
-
-https://saurabhdaware.github.io/text-to-handwriting/#how-to-add-handwriting 
-
 MY PROGRAMS:
 
 https://ideone.com/PTBZ5L //Square root
