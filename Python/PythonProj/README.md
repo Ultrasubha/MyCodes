@@ -36,7 +36,7 @@ Install wikipedia with this command
 - pip install wikipedia
 
 Step 8:
-Donload this file for pyaudio from https://download.lfd.uci.edu/pythonlibs/w6tyco5e/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
+Download this file for pyaudio from https://download.lfd.uci.edu/pythonlibs/w6tyco5e/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 go to its directory and install it  with this command
 - pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 
