@@ -1,7 +1,7 @@
 This project was created by 
-- • Subhadeep Mandal
-- • Aditya Charan P N
-- • Dharniesh P R
+- Subhadeep Mandal
+- Aditya Charan P N
+- Dharniesh P R
 
 Step 1:
 Install pytorch on your windows system with this command
