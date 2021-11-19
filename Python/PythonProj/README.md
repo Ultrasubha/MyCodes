@@ -20,6 +20,19 @@ Install numpy with this command
 - pip install numpy
 
 Step 4:
+Install SpeechRecognition with this command
+- pip install SpeechRecognition
+
+Step 5:
+Install pyttsx3 with this command
+- pip install pyttsx3
+
+
+Step 3:
+Install numpy with this command
+- pip install numpy
+
+Step 4:
 Run nltk_utils.py after removing the # on line 3 to download punkt
 
 Step 5:
