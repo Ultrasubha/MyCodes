@@ -4,7 +4,7 @@ This project was created by
 • Dharniesh P R
 
 Step 1:
-Install pytorch on your windows system with this command
+**Install pytorch on your windows system with this command**
 - pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 Step 2:
