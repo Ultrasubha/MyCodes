@@ -30,7 +30,7 @@ Install pyttsx3 with this command
 Step 6:
 Install pywhatkit with this command
 - pip install pywhatkit
-- 
+
 Step 7:
 Install wikipedia with this command
 - pip install wikipedia
