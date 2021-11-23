@@ -1,3 +1,11 @@
+'''
+INPUT
+5
+2 3 6 6 5
+
+OUTPUT
+5
+'''
 def remove_values_from_list(the_list, val):
    return [value for value in the_list if value != val]
 
