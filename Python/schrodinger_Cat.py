@@ -34,6 +34,7 @@ for i in range(6):
 var=input("You wanted to ask something?\n")
 if var=="Is Schrödinger's cat alive?":
 	print(lst3)
+	print("\n\nDid you like the Schrödinger's reply? ;)")
 else:
 	print("You are only allowed to ask 1 question that is,")
 	print("Is Schrödinger's cat alive?")
