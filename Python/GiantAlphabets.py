@@ -46,11 +46,12 @@ def O(size,content):
 		else:
 			int_offset=i+i
 			
-		str+="  "*abs(ext_offset) + content + "  "*int_offset + content+"\n"
+		str+="  "*abs(ext_offset) + content + "  "*int_offset + content
 		
 		if size%2==0:
 			if i==0:
 				str1=str
+		str+="\n"
 	str+=str1
 	return str
 
