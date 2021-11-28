@@ -32,6 +32,6 @@ for key,value in d.items():  #Going through the name and grade of each students 
     if value==second: #Checking whether the grade is equal to the second lowest grade
         second_lowest.append(key) #If yes , append it to the second_lowest list
 second_lowest.sort() #Sorting the name of students in asceding order
-for name in second_lowest: #Going through the name of each students who got the second lowes grade
+for name in second_lowest: #Going through the name of each students who got the second lowest grade
     print name #Printing each name of students in seperate line
     
