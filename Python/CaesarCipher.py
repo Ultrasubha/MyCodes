@@ -17,6 +17,6 @@ for i in lst:
 	elif i>=97 and i<=122:
 		msg+= chr((i + offset - 97) % 26 + 97)
 	else:
-		msg = "\nPlease enter only alphanumeric characters"
+		msg = "\nPlease enter only alphabets"
 		break
 print(msg)
