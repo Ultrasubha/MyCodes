@@ -14,7 +14,7 @@ int main()
     p->length = 15;
     p->breadth = 7;
     
-    cout<<"The length of Rectangle is "<< p->length<<endl;
-    cout<<"The breadth of Rectangle is "<< p->breadth<<endl;
+    cout << "The length of Rectangle is " << p->length << endl;
+    cout << "The breadth of Rectangle is " << p->breadth << endl;
     return 0;
 }
