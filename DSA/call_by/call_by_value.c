@@ -11,6 +11,6 @@ int main()
    int a=10,b=20;
    printf("a is %d and b is %d\n",a,b);
    swap(a,b);
-   printf("After swapping,\na is %d and b is %d",a,b);
+   printf("After swapping,\na is %d and b is %d",a,b); //Value not changed
     return 0;
 }
