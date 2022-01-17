@@ -12,7 +12,7 @@
 https://www.dell.com/support/kbdoc/en-in/000123974/introduction-to-basic-troubleshooting-commands-within-ubuntu-linux
 https://www.linuxbabe.com/desktop-linux/uget-aria2-download-manger-linux
 
-- KALI
+### KALI
 https://www.kali.org/docs/general-use/metapackages/
 https://www.kali.org/docs/arm/raspberry-pi-4/
 
