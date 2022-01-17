@@ -14,5 +14,6 @@ https://www.linuxbabe.com/desktop-linux/uget-aria2-download-manger-linux
 
 ### KALI
 https://www.kali.org/docs/general-use/metapackages/
+
 https://www.kali.org/docs/arm/raspberry-pi-4/
 
