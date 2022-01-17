@@ -1,4 +1,6 @@
 ## Useful Commands
+|Commands | Work |
+|:--------|:-----|
 | df	| Report file system disk space usage.	| 	df -h |
 | dmesg		| Print or control the kernel ring buffer.	| 	dmesg |
 | lspci		| Lists all PCI devices.	| 	lspci |
