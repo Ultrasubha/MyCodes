@@ -1,3 +1,8 @@
+/**
+Evaluates Quadratic roots from the 3 coefficients a,b,c.
+Dated : 20.1.2022
+@author : Subhadeep Mandal
+*/
 public class QuadraticRoots {
         public static void main(String[] args) {
                 double a = Double.parseDouble(args[0]);
