@@ -1,4 +1,4 @@
-public class MDArr {
+public class frEach_MultiDimensionArr {
     public static void main(String[] args) {
 
         char st[][] = new char[3][3];
