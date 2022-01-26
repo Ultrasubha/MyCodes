@@ -12,14 +12,12 @@ public class FreedomFighters {
 
         if (!AchheDin) {
             System.out.println("Lets take a moment to appreciate the sacrifices of- ");
-            for (String v : freedomFighters1)
-                System.out.println(v);
-            System.out.println(
-                    "and many other eminent freedom fighters for creating a secular,democratic and soverign nation of India.");
-        } else {
+            for (String v : freedomFighters1) System.out.println(v);
+            System.out.println("and many other eminent freedom fighters for creating a secular,democratic and soverign nation of India.");
+        } 
+        else {
             System.out.println("Lets take a moment to appreciate the sacrifices of- ");
-            for (String v : freedomFighters2)
-                System.out.println(v);
+            for (String v : freedomFighters2) System.out.println(v);
             System.out.println("for giving freedom to the nation of India on 2014 xD");
         }
         System.out.println("HAPPY REPUBLIC DAY!");
