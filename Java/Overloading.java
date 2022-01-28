@@ -1,5 +1,5 @@
 class Overloading{
-  //Remoes the need for multiple overloading
+  //Removes the need for multiple overloading
   void meth1(int ... a)
   {
     System.out.println("Variable arguement passing");
@@ -9,9 +9,9 @@ class Overloading{
 
   public static void main(String []args)
   {
-    VariablePassing vp= new VariablePassing();
-    vp.meth1();
-    vp.meth1(2,3,4);
-    vp.meth1(2,3,4,5,6);
+    Overloading ov= new Overloading();
+    ov.meth1();
+    ov.meth1(2,3,4);
+    ov.meth1(2,3,4,5,6);
   }
 }
