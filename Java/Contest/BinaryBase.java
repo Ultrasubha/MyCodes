@@ -1,3 +1,6 @@
+/*MY SOLUTION for---
+ *https://www.codechef.com/FEB221C/problems/BINBASBASIC
+ */
 import java.util.*;
 import java.lang.*;
 import java.io.*;
