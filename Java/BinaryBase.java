@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef {
+class BinaryBase {
     public static void main(String[] args) throws java.lang.Exception {
         Scanner scan = new Scanner(System.in);
         int N = 0, K = 0;
