@@ -1,5 +1,5 @@
 //Coded by Subhadeep Mandal
-public class RoughWork {
+public class RomanToInt {
     public static void main(String[] args) {
         String s = "III";
         int len = s.length();
