@@ -20,13 +20,8 @@ class Datatype {
         int result = value % limit;
         sc.nextLine();
 
-        if (value >= limit) {
-            int times = value / limit;
-            if (result < times)
-                result = limit - times + result + 1;
-            else
-                result -= times;
-        }
+        if (value >= limit)
+            result = value % (limit + 1)
 
         System.out.println(result);
     }
