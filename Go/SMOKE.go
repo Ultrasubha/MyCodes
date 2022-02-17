@@ -1,4 +1,4 @@
-//Coded By Subhadeep Mandal on 17th Feb 2022
+//Coded By Subhadeep Mandal on 17th Feb 2022 for Codechef challenge SMOKE
 package main
 
 import (
