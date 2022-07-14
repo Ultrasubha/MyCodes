@@ -13,8 +13,10 @@
 ll * get_evens();
 ll   add_up (ll *a, ll tillLast);
 void ascification();
-void dArrSum();
+void dArr();
+void decToBinary(int n);
 void code();
+
 int main(){code();return 0;}
 
 ll * get_evens () {                     // Function pointer returns array
@@ -22,6 +24,9 @@ ll * get_evens () {                     // Function pointer returns array
     ll even = 0;
     fo(i, 5) nums[i] = even += 2;       // A bad way to increment
     return (nums);
+    /* To be put in int main()
+    ll *a = get_evens();
+    fo(i,5) pl(a[i]);*/
 }
 
 ll add_up (ll *a, ll tillLast) {        //Passing array as parameter
@@ -39,7 +44,20 @@ void ascification(){                    //Printing ascii value of chars
     free(str);
 }
 
-void dArrSum(){
+void decToBinary(int n){
+    int binaryNum[32];                  // array to store binary number
+    int i = 0;                          // counter for binary array
+    while (n > 0) {
+        binaryNum[i] = n % 2;           // storing remainder in binary array
+        n = n / 2;
+        i++;
+    }
+ 
+    for (int j = i - 1; j >= 0; j--)    // printing binary array in reverse order
+        printf("%d",binaryNum[j]);
+}
+
+void dArr(){
     ll size,total=0;
     sl(size);
     ll *arr = ALLOC(ll,size);
@@ -47,15 +65,15 @@ void dArrSum(){
     fo(i, size) scanf("%lld",arr+i);    //Where each mem block can be accessed as *(arr+i)
     total = add_up(arr,size);
 
-    pl(total);
+    ll *max = arr;
+    fo(i, size)
+        if (*(arr+i) > *max)
+            *max = *(arr+i);            //Like this
+    printf("The total is %lld and the maximum is %lld\n",total,*max);
     free(arr);
 }
 
 void code(){
-    /*ascification();
-    dArrSum();
-    ll *a = get_evens();
-    fo(i,5) pl(a[i]);*/
-    fo1(i=2,10,2)pl(i);
+
 }
 
