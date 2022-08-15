@@ -11,7 +11,7 @@
 #define ALLOC(x, n)  (x*)malloc(n * sizeof(x));
 
 ll * get_evens();
-ll   add_up (ll *a, ll tillLast);
+ll add_up (ll *a, ll tillLast);
 void ascification();
 void dArr();
 void decToBinary(int n);
@@ -74,6 +74,6 @@ void dArr(){
 }
 
 void code(){
-
+    
 }
 
