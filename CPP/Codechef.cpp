@@ -33,14 +33,33 @@ ll factorial(ll num) {
    return num * factorial(num -1);
 }
 
+ll gcd(ll a, ll b)
+{
+    if (a == 0)
+        return b;
+    return gcd(b % a, a);
+}
+
 void solve() {
-   ll num; sl(num);
-   pl(factorial(num));
+   ll n; sl(n);
+   ll arr[n];
+   fo(i, n) sl(arr[i]);
+   ll sudhint,val=2512199;
+   string s="";
+   cin>>s;
+   fo(i,s.length()){
+      sudhint=(int)s[i]-48;
+      if(sudhint==0)
+         if(arr[i]<=val || val==2512199)
+            val=arr[i];
+   }
+   pl(val);
 }
 
 int main() {
-    int testCase = 1;
-    cin >> testCase;
-    while(testCase--) solve();
+    //int testCase = 1;
+    //cin >> testCase;
+    //while(testCase--) solve();
+    cout<< gcd(14,16) << endl;
     return 0;
 }
