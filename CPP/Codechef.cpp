@@ -33,6 +33,18 @@ ll factorial(ll num) {
    return num * factorial(num -1);
 }
 
+ll power(ll x, ll y, ll p)
+{
+    ll res = 1;
+    while (y > 0) {
+        if (y % 2 == 1)
+            res = (res * x);
+        y = y >> 1;
+        x = (x * x);
+    }
+    return res % p;
+}
+
 ll gcd(ll a, ll b)
 {
     if (a == 0)
@@ -42,24 +54,13 @@ ll gcd(ll a, ll b)
 
 void solve() {
    ll n; sl(n);
-   ll arr[n];
-   fo(i, n) sl(arr[i]);
-   ll sudhint,val=2512199;
-   string s="";
-   cin>>s;
-   fo(i,s.length()){
-      sudhint=(int)s[i]-48;
-      if(sudhint==0)
-         if(arr[i]<=val || val==2512199)
-            val=arr[i];
-   }
+   ll val = power(2,n,1000000007);
    pl(val);
 }
 
 int main() {
-    //int testCase = 1;
-    //cin >> testCase;
-    //while(testCase--) solve();
-    cout<< gcd(14,16) << endl;
+    int testCase = 1;
+    cin >> testCase;
+    while(testCase--) solve();
     return 0;
 }
