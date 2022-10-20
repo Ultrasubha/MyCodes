@@ -53,9 +53,23 @@ ll gcd(ll a, ll b)
 }
 
 void solve() {
-   ll n; sl(n);
-   ll val = power(2,n,1000000007);
-   pl(val);
+   ll n;
+   sl(n);
+   ll a[n];
+   fo(i,n) sl(a[i]);
+   vector <ll> v;
+   v.push_back(1);
+   for(ll i = 1; i < n-1; i++)
+        if(a[i]>a[i-1] && a[i]>a[i+1])
+            v.push_back(i+1);
+    v.push_back(n);
+    ll cnt,ans=0;
+    for(ll i = 1; i < v.size(); i++) {
+        cnt=v[i]-v[i-1]+1;
+        ans+=(cnt*(cnt+1)/2);
+    }
+    ans-=(v.size()-2);
+    pl(ans);
 }
 
 int main() {
