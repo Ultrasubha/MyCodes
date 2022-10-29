@@ -3,10 +3,12 @@ using namespace std;
 #define ll long long
 #define vi  vector<int>
 #define vll vector<long long int>
+#define sc(x) scanf("%c", &x)
 #define si(x) scanf("%d", &x)
 #define sl(x) scanf("%lld", &x)
-#define pl(x) printf("%lld\n", x)
+#define pc(x) printf("%c\n", x)
 #define pi(x) printf("%d\n", x)
+#define pl(x) printf("%lld\n", x)
 #define ps(s) printf("%s\n", s)
 #define fo(i, n) for (auto i = 0; i < n; i++)
 #define fo1(i, n, x) for (ll i = 0; i < n; i=i+x)
@@ -45,12 +47,7 @@ ll power(ll x, ll y, ll p)
     return res % p;
 }
 
-ll gcd(ll a, ll b)
-{
-    if (a == 0)
-        return b;
-    return gcd(b % a, a);
-}
+
 
 void solve() {
    ll n;
@@ -73,8 +70,7 @@ void solve() {
 }
 
 int main() {
-    int testCase = 1;
-    cin >> testCase;
-    while(testCase--) solve();
+    //int testCase = 1;   cin >> testCase;    while(testCase--) solve();
+    cout<< gosagu(12,2)<<endl;
     return 0;
 }
