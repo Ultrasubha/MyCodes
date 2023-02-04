@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<head>
+	<title>Homepage</title>
+	<link rel="icon" type="image/gif/png" href="GuavaSlice.png">
+<style>
+body {
+  background-image: linear-gradient(0deg, thistle, moccasin);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: indigo;
+	text-shadow: 2px 2px 2px brown;
+	font-size: xxx-large;
+	font-family: Comic Sans, cursive;
+}
+
+footer {
+	font-weight: bold;
+	font-family: Comic Sans, cursive;
+	font-size: large;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: Comic Sans, cursive;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 85px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: green;
+}
+
+a {
+  display: inline;
+  color: tomato;
+}
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: lightsalmon;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+  font-size:x-large;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:large;
+  color: #777;
+}
+
+.days li:hover {
+  background-color: lightblue;
+  border-radius: 20px;
+  color: black;
+}
+
+.days li:active {
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+}
+
+/* These are for smaller screens. To be adjusted later as text size was increased */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+.mainCalendar {
+	float: right;
+	width: 65%;
+	border: 6px ridge black;
+}
+
+img {
+	float: left;
+    width:35%;
+    object-fit: cover;
+	border: 6px ridge black;
+	background-image: linear-gradient(0deg, darkgray, peachpuff);
+}
+
+</style>
+</head>
+<body>
+<h1>Smart Calender</h1>
+<nav>
+    <ul>
+      <li><a href="Reminder.html">Reminder</a></li>
+      <li><a href="Important_Dates.html">Important Dates</a></li>
+      <li><a href="Birthdays.html">Birthdays</a></li>
+      <li><a href="about_us.html">About us</a></li>
+      <li><a href="Login.html">Login</a></li>
+      <li><a href="Register.html">Register</a></li>
+    </ul>
+</nav>
+
+<img src="Calendar_2021.png" alt="2021 Calendar">
+
+<div class="mainCalendar">
+	
+	<div class="month">
+		<h1>
+		<a class="prev" style="float: left;color: darkslategray;" onclick="alert('previous month');">&#10094;</a>
+		August
+		<a class="next" style="float: right;color: darkslategray;" onclick="alert('next month');">&#10095;</a>
+		</h1>      
+	    <span style="font-size:18px;font-weight:bold;">2021</span>
+	</div>
+		<ul class="weekdays">
+		  <li>Su</li>
+		  <li>Mo</li>
+		  <li>Tu</li>
+		  <li>We</li>
+		  <li>Th</li>
+		  <li>Fr</li>
+		  <li>Sa</li>
+		</ul>
+
+		<ul class="days">  
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Today is a day to make a new bond because today is Friendship Day ʕ♥ᴥ♥ʔ';">1</li>
+		  <li>2</li>
+		  <li>3</li>
+		  <li>4</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Let\'s wish Happy Birthday to Ritik (｡◕‿◕｡)';">5</li>
+		  <li>6</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Let\'s wish Happy Birthday to Harshini (｡◕‿◕｡)';">7</li>
+		  <li>8</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Let\'s wish Happy Birthday to Manan (◠﹏◠)';">9</li>
+		  <li>10</li>
+		  <li>11</li>
+		  <li>12</li>
+		  <li>13</li>
+		  <li>14</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Happy Independance Day. Lets take some moment to cherish our freedom fighters today';">15</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Happy Parsi New Year';">16</li>
+		  <li>17</li>
+		  <li>18</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Happy Muharram.Lets cheer our Muslim brothers today';">19</li>
+		  <li>20</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Lets Party hard for Aakash\'s Birthday ✌(-‿-)✌';">21</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Happy Raksha Bandhan.Let\'s strengthen the sibling bond today';">22</li>
+		  <li>23</li>
+		  <li>24</li>
+		  <li>25</li>
+		  <li>26</li>
+		  <li>27</li>
+		  <li>28</li>
+		  <li>29</li>
+		  <li onclick="document.getElementById('gyans').innerHTML = 'Happy Janmashtami';">30</li>
+		  <li>31</li>
+		</ul>
+</div>
+<footer id="gyans">
+	Stay Home Stay Safe.Wear masks at all times
+</footer>
+</body>
+</html>

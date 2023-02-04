@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="Calculator">
+		<meta name="keywords" content="Calculator, Addition, Subtraction, Multiplication, Division">
+		<meta name="author" content="Subhadeep Mandal">
+		<meta charset="utf-8"  />
+		<title> Calculator </title>
+		<script>
+			function sum()
+			{
+				var a=document.getElementById('t1').value;
+				var b=document.getElementById('t2').value;
+				alert(parseInt(a)+parseInt(b));
+				//document.write(parseInt(a)+parseInt(b));
+				//document.getElementById('result').innerHTML=parseInt(a)+parseInt(b);
+			}
+			
+			function subtract()
+			{
+				var a=document.getElementById('t1').value;
+				var b=document.getElementById('t2').value;
+				if(a>b)
+				alert(parseInt(a)-parseInt(b));
+				else
+				alert(parseInt(b)-parseInt(a));
+			}
+			
+			function multiply()
+			{
+				var a=document.getElementById('t1').value;
+				var b=document.getElementById('t2').value;
+				alert(parseInt(a)*parseInt(b));
+			}
+			
+			function divide()
+			{
+				var a=document.getElementById('t1').value;
+				var b=document.getElementById('t2').value;
+				if(a>b)
+				alert(parseInt(a)/parseInt(b));
+				else
+				alert(parseInt(b)/parseInt(a));
+			}
+			
+		</script>
+		<style>
+			p {color:blue}
+			h1 {color:blue;text-align:center;text-shadow:2px 2px 4px black;}
+			body { color: #056608; background-color:#ffb7c5;text-align:center;font-size: 40px;text-shadow:1px 1px 2px black}
+		</style>
+		
+	</head>
+	
+	
+	
+	<body>
+		<h1>Calculator</h1>
+		<b>Enter the number1 <input type="text" id="t1"> <br> <br><br></b>
+		<b>Enter the number2 <input type="text" id="t2"><br><br></b>
+		<input type="button" value="Add" Onclick="sum();">
+		<input type="button" value="Subtract" Onclick="subtract();">
+		<input type="button" value="Multiply" Onclick="multiply();">
+		<input type="button" value="Divide" Onclick="divide();">
+		<input type="reset" value="clear">
+		<br >
+		<script>
+			for(var i=0;i<10;i++)
+			{
+				<input type="button" value=i.ToString()>
+			}
+		</script>
+		<div id="result"> </div>
+	</body>
+</html>

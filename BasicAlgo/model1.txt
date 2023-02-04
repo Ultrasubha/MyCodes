@@ -1,0 +1,9 @@
+PROBLEM: IF NUMBER DIVISIBLE BY 10 FIND SQUARE ELSE FIND CUBE
+
+Algorithm:
+1)Start
+2)Input num1
+3)Remainder = num1%10;
+4)if remainder==0 : num1 = num1*num1
+5)if remainder!=0 : num1 = num1*num1*num1
+6)End

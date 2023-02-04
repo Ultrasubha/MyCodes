@@ -1,0 +1,9 @@
+Problem: To find square of a number if its divisible by 10 else we find its cube
+
+Algorithm:
+1)Start
+2)Enter any number
+3)Remainder = number%10;
+4)if Remainder equal to 0 then number = number*number
+5)if Remainder is not equal to 0 then number = number*number*number
+6)End

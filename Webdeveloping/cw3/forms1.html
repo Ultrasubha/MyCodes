@@ -1,0 +1,35 @@
+html>
+<head>
+<title> Form validations </title>
+<script>
+function display()
+{
+var p = document.getElementById('t1').value;
+document.getElementById('show').innerHTML=p;
+}
+
+</script>
+</head>
+<body>
+<form>
+Name <input type="text" id="t1" required><br>
+Email<input type="email"><br>
+Password<input type="Password"> <br>
+Select city<select>
+<option> Ludhiana </option>
+<option> Chandigarh </option>
+</select>
+Gender Male <input type="radio" name="r1">
+female <input type="radio" name="r1">
+<input type="checkbox"> BCA
+<input type="checkbox"> MCA
+<input type="checkbox"> B.Tech
+<input type="submit" value="submit">
+<input type="reset" value="clear">
+
+</form>
+<input type="button" onclick="display();">
+<div id="show"> </div>
+</body>
+</html>
+

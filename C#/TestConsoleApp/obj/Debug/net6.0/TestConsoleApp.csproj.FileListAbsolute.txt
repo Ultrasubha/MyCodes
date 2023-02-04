@@ -1,0 +1,15 @@
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.exe
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.deps.json
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.runtimeconfig.json
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.dll
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\bin\Debug\net6.0\TestConsoleApp.pdb
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.csproj.AssemblyReference.cache
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.AssemblyInfoInputs.cache
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.AssemblyInfo.cs
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.csproj.CoreCompileInputs.cache
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.dll
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\refint\TestConsoleApp.dll
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.pdb
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\TestConsoleApp.genruntimeconfig.cache
+D:\_WorkSpace\MyCodes\C#\TestConsoleApp\obj\Debug\net6.0\ref\TestConsoleApp.dll

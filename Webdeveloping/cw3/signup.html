@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<title> Form validations </title>
+
+<script>
+
+function display()
+{
+var p = document.getElementById('t1').value;
+document.getElementById('show1').innerHTML=p;
+
+var e = document.getElementById('e1').value;
+document.getElementById('show2').innerHTML=e;
+
+var g = document.getElementById('p1').value;
+document.getElementById('show3').innerHTML=g;
+
+var C = document.getElementById('C1').value;
+document.getElementById('show4').innerHTML=C;
+
+var D = document.getElementById('C2').value;
+document.getElementById('show5').innerHTML=D;
+}
+
+</script>
+
+</head>
+
+<body>
+
+
+<form>
+
+Name <input type="text" id="t1" required><br>
+Email<input type="email" id="e1"><br>
+Password<input type="Password" id="p1"> <br>
+Select city<select>
+<option> Ludhiana </option>
+<option> Chandigarh </option>
+</select>
+Gender Male <input type="radio" name="r1">
+female <input type="radio" name="r1">
+<input type="checkbox" value="BCA" id="C1" > BCA
+<input type="checkbox" value="MCA" id="C2"> MCA
+<input type="checkbox"> B.Tech
+<input type="submit" value="submit">
+<input type="reset" value="clear">
+
+</form>
+
+
+
+
+<input type="button" value="SHOW" onclick="display();">
+<div id="show1"> </div>
+<div id="show2"> </div>
+<div id="show3"> </div>
+<div id="show4"> </div>
+<div id="show5"> </div>
+
+
+</body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #navber1 {
+            display: flex;
+        }
+
+        #logo img {
+            height: 70px;
+        }
+
+        #item1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 170px;
+        }
+
+        #item1 .content {
+            padding: 0px 50px;
+            color: red;
+        }
+
+        #button .btn {
+            position: relative;
+            left: 600px;
+            top: 23px;
+        }
+
+
+
+
+
+        #navber2 {
+            background-color: gray;
+        }
+
+        #navber2 ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            padding-inline-start: 0px;
+        }
+
+        #navber2 ul li {
+            list-style: none;
+            font-size: 1.3rem;
+            padding: 14px 31px;
+        }
+
+        #navber2 ul li a {
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+            /* display: block;
+            margin: auto; */
+        }
+
+        #navber2 ul li a:hover {
+            background-color: white;
+        }
+
+        /* #navber2::before {
+            content: "";
+            position: absolute;
+            height: 500px;
+            top: 0px; 
+            left: 0px;
+            width: 100%;
+            z-index: -1;
+            opacity: 1.4;
+        }  */
+
+
+
+
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 200px;
+            height: 400px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #home::before {
+            content: "";
+            position: absolute;
+            background: url('https://images.unsplash.com/photo-1551711974-faf378be34b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGNvbnN0cnVjdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60') no-repeat center center/cover;
+            height: 500px;
+            /* top: 0px; */
+            left: 0px;
+            width: 100%;
+            z-index: -1;
+            opacity: 1.4;
+        }
+
+
+        #home h1 {
+            color: white;
+            font-size: 2rem;
+        }
+
+        #home p {
+            color: white;
+        }
+
+
+
+
+        #servises .box img {
+            height: 100px;
+            margin: auto;
+            display: block;
+
+        }
+
+        #servises .box {
+            /* border: 2px solid red; */
+            margin: 40px;
+            padding: 3px;
+            /* background-color: rgb(175, 172, 172);
+            border-radius: 15px; */
+        }
+
+        #servises {
+            display: flex;
+        }
+
+        .h-primary-center {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 20px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #servises .center {
+            font-family: 'Dancing Script', cursive;
+            font-size: 22px;
+        }
+
+        .h-secondary {
+            text-align: center;
+        }
+
+
+
+        #more {
+            display: flex;
+            justify-content: center;
+            background-color: gray;
+            padding-top: 15px;
+        }
+
+        #more img {
+            height: 300px;
+            width: 300px;
+            padding: 50px;
+        }
+
+        #text {
+            text-align: center;
+            background-color: gray;
+            padding-top: 18px;
+        }
+
+        #text .text-1 {
+            font-size: 1.6rem;
+        }
+
+        #text .text-1,
+        .text-center {
+            color: white;
+        }
+
+
+
+        #video {
+            display: flex;
+            padding: 50px;
+            padding-bottom: 0px;
+        }
+
+        #contaner {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 20px;
+        }
+
+        #contaner .para {
+            font-family: 'Dancing Script', cursive;
+            font-size: 22px;
+            color: hotpink;
+        }
+
+        #contaner .heading {
+            color: darkgreen;
+        }
+
+        iframe {
+            width: 775px;
+        }
+
+        #contact {
+            position: relative;
+            margin: 40px 0px;
+        }
+
+        #contact-box::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 93%;
+            z-index: -1;
+            opacity: 0.7;
+            background: url('https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=ej-yao-D46mXLsQRJw-unsplash.jpg') no-repeat center center/cover;
+
+        }
+
+        #contact-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 32px;
+            /* margin: 20px; */
+            /* padding-bottom: 34px; */
+        }
+
+        #contact-box input,
+        #contact-box textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.1rem;
+        }
+
+        #contact-box form {
+            width: 40%;
+        }
+
+        #contact-box label {
+            font-size: 1.3rem;
+
+        }
+
+        .btn {
+            padding: 4px 4px;
+            border: 2px solid white;
+            background-color: brown;
+            color: white;
+            margin: 2px;
+            font-size: medium;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn-form {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            font-size: medium;
+            padding: 8px 15px;
+            margin-top: 15px;
+            border-radius: 15px;
+        }
+
+        #button-form {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="navber1">
+
+        <div id="logo">
+            <img src="https://i.pinimg.com/originals/37/27/63/372763408e6bd81e6839149a1081f47b.jpg">
+        </div>
+
+        <div id="item1">
+
+            <div class="content">
+                contact no:
+            </div>
+
+            <div class="content">
+                address :
+            </div>
+
+        </div>
+
+        <div id="button">
+
+            <button class="btn">
+                login
+            </button>
+
+            <button class="btn">
+                Email Us
+            </button>
+
+        </div>
+
+
+
+
+    </div>
+    <div id="navber2">
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Our Business</a></li>
+            <li class="item"><a href="#">Projects</a></li>
+            <li class="item"><a href="#">Career</a></li>
+            <li class="item"><a href="#">Media</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to UVS Constructions</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nihil porro commodi dolore numquam
+            praesentium vero earum! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum reprehenderit tempora incidunt!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+
+    <section id="servises-contaner">
+        <h1 class="h-primary-center">
+            Our Services
+        </h1>
+        <div id="servises">
+            <div class="box">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBs1FDdvx49Q0Lc5lnJ5rLQmXpXWB65iZadA&usqp=CAU">
+                <h2 class="h-secondary">Creative Plan & Design</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti iusto commodi
+                    perferendis reiciendis aut dolores veniam, hic vel explicabo praesentium!</p>
+            </div>
+            <div class="box">
+                <img src="data:image/png;base64,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">
+                <h2 class="h-secondary">Talented Peoples</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti iusto commodi
+                    perferendis reiciendis aut dolores veniam, hic vel explicabo praesentium!</p>
+            </div>
+            <div class="box">
+                <img src="https://www.kronos.com/sites/default/files/images/industry/icons/industry-icon-contract-services.png">
+                <h2 class="h-secondary">Modern Tools</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti iusto commodi
+                    perferendis reiciendis aut dolores veniam, hic vel explicabo praesentium!</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="text">
+        <h2 class="text-1">MADE WITH LOVE</h2>
+        <br>
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, fugit.</p>
+    </div>
+
+
+    <section id="more">
+
+        <div class="pic">
+            <img src="https://images.unsplash.com/photo-1515442511163-25dd3276b9a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=martin-widenka-qZ1duL3ItDI-unsplash.jpg">
+        </div>
+
+        <div class="pic">
+            <img src="https://images.unsplash.com/photo-1568066857753-3d606656e566?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGNvbnN0cnVjdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+        </div>
+
+        <div class="pic">
+            <img src="https://images.unsplash.com/photo-1536895058696-a69b1c7ba34f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80">
+        </div>
+
+    </section>
+
+
+    <section id="video">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wq286Lzfsp8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <div id="contaner">
+
+            <h2 class="heading">WE ARE EXPERT IN CONSTRUCTION FIELD</h2>
+            <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis eos earum eveniet
+                accusamus ea ipsam nihil pariatur eaque quo nam.</p>
+
+        </div>
+
+
+
+    </section>
+
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div id="button-form">
+
+                    <button class="btn-form">
+                        SUBMIT
+                    </button>
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

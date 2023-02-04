@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New User</title>
+  <link rel="icon" type="image/gif/png" href="GuavaSlice.png">
+<style>
+body {
+  background-image: linear-gradient(180deg, cornflowerblue, black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#parent {
+   display: flex;
+   height: 380px;
+}
+
+h1 {
+  font-weight: bold;
+  color: lime;
+  text-shadow: 3px 3px 3px black;
+  font-family: Comic Sans, cursive;
+  text-align: center;
+  margin-top: 5%;
+  font-size: xxx-large;
+}
+
+h2 {
+  font-weight: bold;
+  color: lightblue;
+  text-shadow: 3px 3px 3px black;
+  font-family: Comic Sans, cursive;
+  text-align: center;
+  margin-top: -3%;
+}
+
+div.transbox {
+  margin-top: 2%;
+  margin-left: 25%;
+  width : 30%;
+  padding: 2%;
+  border: 5px double brown;
+  background-color: #420601;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+div.transbox label {
+  font-weight: bold;
+  color: ivory;
+  font-size: large;
+  font-family: Comic Sans, cursive;
+}
+
+input[type=submit] {
+  background-color: royalblue;
+  color: linen;
+  padding: 8px 16px;
+  float: right;
+  margin-top: 2%;
+  cursor: pointer;
+  font-family: Comic Sans, cursive;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px black;
+  font-size: large;
+  border-radius: 20px;
+  width: 100%;
+}
+
+input {
+  border-radius: 20px;
+  text-align: center;
+  padding: 4px 8px;
+  font-size: large;
+}
+
+img {
+  margin-top: 2%;
+  border: 5px double black;
+  border-radius: 20px;
+  background-color: darkgray;
+  background-image: linear-gradient(90deg, darkgray, black);
+}
+</style>
+</head>
+<body>
+  <h1>Smart Calender Registration </h1>
+  <div id="parent">
+      <div class="transbox">
+        <h2>New User?</h2>
+        <hr>
+        <form action="PostRegistration.html">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" value="Subhadeep" style="float: right;"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" value="Mandal" style="float: right;"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" value="subha25@live.com" style="float: right;"><br><br>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" style="float: right;"><br><br>
+          <input type="submit" value="Register">
+        </form>
+      </div>
+        <img src="GuavaSlice.png" alt="GuavaSlice">
+  </div>
+</body>
+</html>
