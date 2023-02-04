@@ -6,4 +6,6 @@ for i in lst:
 unik=set(nlst)
 for i in unik:
     print(i,nlst.count(i))'''
-
+arr=[1,3,5,1]
+arr.remove(1)
+print(abs(-2))

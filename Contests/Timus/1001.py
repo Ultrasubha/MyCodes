@@ -1,3 +1,4 @@
+# https://acm.timus.ru/problem.aspx?space=1&num=1001
 import math
 
 def square_root(n):
