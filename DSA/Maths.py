@@ -20,3 +20,17 @@ def rFactorial(num): # 	T(n) = T(n-1) + θ(1) space = θ(n)
     if num<2:
         return 1
     return num*rFactorial(num-1)
+
+def trailingZero(num):
+    val=0
+    while num>=5:
+        num//=5
+        val+=num
+    return val
+
+def gcd(a, b):
+    if a == 0 :
+        return b
+    return gcd(b%a, a)
+
+print(trailingZero(10))

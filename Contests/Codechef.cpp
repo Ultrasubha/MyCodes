@@ -3,14 +3,16 @@ using namespace std;
 #define ll long long
 #define vi  vector<int>
 #define vll vector<long long int>
+#define ll long long
+#define mod 1000000007
+#define inf 0x7fffffff
+#define PI 3.1415926535897932384626
 #define maxX(a,b) (a>b?a:b)
 #define minX(a,b) (a<b?a:b)
 #define isEven(a) ((a%2==0)?1:0)
 #define isOdd(a) ((a%2==0)?0:1)
 #define isNeg(a) ((a<0)?1:0)
 #define abss(a) ((a<0)?-a:a)
-#define ll long long
-#define mod 1000000007
 #define sc(x) scanf("%c", &x)
 #define si(x) scanf("%d", &x)
 #define sl(x) scanf("%lld", &x)
@@ -21,6 +23,16 @@ using namespace std;
 #define fo(i, n) for (auto i = 0; i < n; i++)
 #define fo1(i, n, x) for (ll i = 0; i < n; i=i+x)
 #define ALLOC(x, n)  (x*)malloc(n * sizeof(x));
+
+typedef pair<int, int> pii;
+typedef pair<ll, ll> pl;
+typedef vector<int> vi;
+typedef vector<ll> vl;
+typedef vector<pii> vpii;
+typedef vector<pl> vpl;
+typedef vector<vi> vvi;
+typedef vector<vl> vvl;
+
 
 ll gcd(ll a, ll b){if (a == 0) return b;   return gcd(b % a, a);}
 
@@ -80,7 +92,8 @@ void solve() {
 }
 
 int main() {
-    //int testCase = 1;   cin >> testCase;    while(testCase--) solve();
-    cout<< gcd(10,2)<<endl;
+    int testCase;   cin >> testCase;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    while(testCase--) solve();
     return 0;
 }
