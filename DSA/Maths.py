@@ -33,4 +33,23 @@ def gcd(a, b):
         return b
     return gcd(b%a, a)
 
-print(trailingZero(10))
+def lcm(a, b):
+    return (a*b)//gcd(a,b)
+
+def isPrime(n):
+    if n<2:
+        return False
+    if n<4:
+        return True
+    if n%2==0 or n%3==0:
+        return False
+    i=5
+    while i*i<=n:
+        if n%i==0 or n%(i+2)==0:
+            return False
+        i+=6
+    else:
+        return True
+
+for i in range(720):
+    print(i,isPrime(i))
