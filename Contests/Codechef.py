@@ -11,13 +11,10 @@ sys.stdout= open('CP1/myoutput1.txt','W')
 '''
 
 for _ in range(int(input())):
-    arr = list(map(int,input().split(" ")))
-    cost= arr[len(arr)-1]
-    arr.pop()
-    add=max(arr)
-    arr.remove(add)
-    add+=max(arr)
-    if add>=cost:
-        print("YES")
+    a,b,c = map(int,input().split(" "))
+    a=a-min(a,b)
+    a=a-abs(min(a,c))
+    if a<0:
+        print(a,"NO")
     else:
-        print("NO")
+        print(a,"YES")

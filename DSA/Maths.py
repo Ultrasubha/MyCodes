@@ -21,22 +21,22 @@ def rFactorial(num): # 	T(n) = T(n-1) + θ(1) space = θ(n)
         return 1
     return num*rFactorial(num-1)
 
-def trailingZero(num):
+def trailingZero(num):  #T(n) = θ(1)
     val=0
     while num>=5:
         num//=5
         val+=num
     return val
 
-def gcd(a, b):
+def gcd(a, b):           #T(n) = O(Log min(a, b))
     if a == 0 :
         return b
     return gcd(b%a, a)
 
-def lcm(a, b):
+def lcm(a, b):           #T(n) = θ(1)
     return (a*b)//gcd(a,b)
 
-def isPrime(n):
+def isPrime(n):         #T(n) = θ(√n)
     if n<2:
         return False
     if n<4:
@@ -50,6 +50,30 @@ def isPrime(n):
         i+=6
     else:
         return True
+    
+def divisorsOf(n):      #T(n) = θ(√n) space = θ(1)
+    arr=[]
+    sqrt = int(n**0.5) + 1
+    for i in range(1,sqrt):
+        if n%i==0:
+            arr.append(i)
+    for j in reversed(range(1,i)):
+        if n%j==0:
+            arr.append(n//j)
+    return arr
 
-for i in range(720):
-    print(i,isPrime(i))
+def sieve(n):           #T(n) = nloglog(n)
+    isItPrime=[True]*(n+1)
+    for i in range(2,n+1):
+        if isItPrime[i]:
+            yield i
+            for j in range(i*i,n+1,i):
+                isItPrime[j] = False
+
+def expo(a,b):
+    val=1
+    for i in range(b):
+        val *= a
+    return val
+        
+print(expo(2,3))
