@@ -3,30 +3,27 @@ arr = list(map(int,input().split(" ")))
 arr.insert(0,0)
 print(, end ="")
 '''
-
-'''import sys
-from turtle import clear
-sys.stdin = open('CP1/sampleinput1.txt' ,'r')
-sys.stdout= open('CP1/myoutput1.txt','W')
-'''
-
-'''for _ in range(int(input())):
-    a,b,c = map(int,input().split(" "))
-    a=a-min(a,b)
-    a=a-abs(min(a,c))
-    if a<0:
-        print(a,"NO")
-    else:
-        print(a,"YES")'''
+    
 for _ in range(int(input())):
-    n,k = map(int,input().split(" "))
-    problemTime = list(map(int,input().split(" ")))
-    breakTime = list(map(int,input().split(" ")))
-    TotalTime=[]
+    n,p,q = map(int,input().split(" "))
+    s = input()
+    s1=""
     for i in range(n):
-        TotalTime.append(problemTime[i] + breakTime[i])
-    #name_mark_pairs = list(zip(problemTime, breakTime))
-    print(TotalTime)
-#sorted_pairs = sorted(name_mark_pairs, key=lambda x: x[0])
-#for i in sorted_pairs:
-#    print(i[1])
+        val = ord(s[i])
+        if p==0 and q==0:
+            s1+=s[i]
+        else:
+            if val + p > 122:
+                s1+="a"
+                p -= (123 - val)
+            elif q>0:
+                if val - q < 97:
+                    s1+="a"
+                    q -= (val - 97)
+                else:
+                    s1+=chr(val - q)
+                    q=0
+            else:
+                s1+=s[i]
+    print(s1)
+        

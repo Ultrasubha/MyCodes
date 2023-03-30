@@ -1,4 +1,4 @@
-#   0, 4, 22, 4, 14, 4, 2
+'''#   0, 4, 22, 4, 14, 4, 2
 #   0, 1, 2, 4, 1, 1, 1
 def waveSorting(arr):
     arr.sort()
@@ -13,4 +13,6 @@ def waveSorting(arr):
 
 
 print(waveSorting([0, 1, 2, 4, 1, 1, 1]))
-print(waveSorting([0, 4, 22, 4, 14, 4, 2]))
+print(waveSorting([0, 4, 22, 4, 14, 4, 2]))'''
+for i in range(97, 123):
+   print(chr(i),i)
