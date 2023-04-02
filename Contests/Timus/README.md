@@ -3,4 +3,3 @@
 - If you have any suggestions or modifications feel free to edit and send me a pull request.
 
 ### Thank You / Grazie / Arigatou Gozaimasu / Dhonnobad / Dhanyabad / Gracious / merci
-d
