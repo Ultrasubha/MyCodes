@@ -14,5 +14,7 @@ def waveSorting(arr):
 
 print(waveSorting([0, 1, 2, 4, 1, 1, 1]))
 print(waveSorting([0, 4, 22, 4, 14, 4, 2]))'''
-for i in range(97, 123):
-   print(chr(i),i)
+#for i in range(97, 123):
+#   print(chr(i),i)
+a = [2,4,23,2,5,7]
+print(list(map(lambda x: x.replace(2, "_"), a)))

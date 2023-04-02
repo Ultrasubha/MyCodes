@@ -13,9 +13,10 @@ for _ in range(int(input())):
         if p==0 and q==0:
             s1+=s[i]
         else:
-            if val + p > 122:
-                s1+="a"
-                p -= (123 - val)
+            if p>0:
+                if val + p > 122:
+                    s1+="a"
+                    p -= (123 - val)
             elif q>0:
                 if val - q < 97:
                     s1+="a"
