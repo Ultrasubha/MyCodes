@@ -1,5 +1,1 @@
-4
-CDEF:MNOP:UVWX
-BDGK:PTYF:TUYC
-DFH:FHD:MOQ
-CEG:IJM:NPR
+https://id.heytap.com/v2/profile.html

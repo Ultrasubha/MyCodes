@@ -9,8 +9,10 @@ for _ in range(10):
         arr.append(s)
 for __ in range(4):
     if input()=="":
-        webbrowser.open("https://id.heytap.com/profile.html")
-        time.sleep(40)
+        webbrowser.open("https://id.heytap.com/v2/profile.html")
+        time.sleep(37)
         #pyautogui.hotkey('ctrl', 'w')
-        for i in arr:
-            webbrowser.open(i)
+        for i in range(10):
+            webbrowser.open(arr[i])
+            if i==0:
+                time.sleep(15)
