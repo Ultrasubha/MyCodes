@@ -10,9 +10,9 @@ for _ in range(10):
 for __ in range(4):
     if input()=="":
         webbrowser.open("https://id.heytap.com/v2/profile.html")
-        time.sleep(37) # This is the time alloted for your login
+        time.sleep(37)
         #pyautogui.hotkey('ctrl', 'w')
         for i in range(10):
             webbrowser.open(arr[i])
             if i==0:
-                time.sleep(15) # This is the time to again click login during your first game
+                time.sleep(15) 
