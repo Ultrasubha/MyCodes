@@ -1,3 +1,4 @@
-for i in range(1,5):
-    s="-"*(4-i)+"x"*i
-    print(s)
+a=0.1
+b=0.2
+c=a+b
+print(c)

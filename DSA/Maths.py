@@ -76,5 +76,4 @@ def expo(a,b):
         val *= a
     return val
 
-for i in range(11,55):
-    print(divisorsOf(i))
+print(divisorsOf(68))
