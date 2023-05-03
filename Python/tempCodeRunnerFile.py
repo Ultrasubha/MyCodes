@@ -1,1 +1,0 @@
-https://id.heytap.com/v2/profile.html

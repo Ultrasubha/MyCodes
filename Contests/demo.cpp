@@ -1,7 +1,31 @@
 #include <bits/stdc++.h>
 using namespace std;
+class f{
+    public: int a=9;
+    f(){
+        cout<<"sd";
+    }
+};
+
+class Account {  
+   public:  
+   float salary = 60000;
+   Account(){
+    cout<<"chutiye";
+   }   
+ };  
+   class Programmer: public Account {  
+   public:  
+   float bonus = 5000;    
+   Programmer(){
+    cout<<"bsdk";
+   }
+   };       
 
 int main() {
-    cout<<ceil(sqrt(21));
+    Programmer hi;
+    //b();
+    //int t=9;
+    //cout<<b(t);
     return 0;
 }
