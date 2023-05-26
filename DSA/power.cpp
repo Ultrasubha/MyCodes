@@ -7,7 +7,7 @@ ll expo(ll x,ll n, ll M);     //T(n) = O(log(n)) space = O(1)
 
 int main(){
     ll M = 1000000007;
-    p(expo(,5, M));
+    p(expo(2,5, M));
     p(expo(3,10, M));
     return 0;
 }

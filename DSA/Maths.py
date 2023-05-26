@@ -78,10 +78,15 @@ def sieve(n):           #T(n) = nloglog(n)
             for j in range(i*i,n+1,i):
                 isItPrime[j] = False
 
-def expo(a,b):
+def expo(x,n,m):        #T(n) = O(log(n)) space = O(1)
     val=1
-    for i in range(b):
-        val *= a
+    while n>0:
+        if n&1:
+            val = (val*x) % M
+        x = (x * x) % M
+        n>>=1; # dividing by 2
     return val
 
-print(divisorsOf(68))
+M = 1000000007
+
+print(expo(2, 5,M))
