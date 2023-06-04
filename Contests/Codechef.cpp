@@ -26,7 +26,7 @@ using namespace std;
 
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pl;
-typedef vector<int> vi;
+//typedef vector<int> vi;
 typedef vector<ll> vl;
 typedef vector<pii> vpii;
 typedef vector<pl> vpl;
