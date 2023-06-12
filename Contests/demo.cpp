@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define MAX 25
 class f{
     public: int a=9;
     f(){

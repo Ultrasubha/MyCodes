@@ -1,4 +1,4 @@
-import subprocess
+'''import subprocess
 
 package_name = 'keyboard'
 
@@ -12,7 +12,7 @@ except ImportError:
 
 while True:
     if keyboard.read_key() == "a":
-        break
+        break'''
 
 
 #date = str(datetime.now())[:10]

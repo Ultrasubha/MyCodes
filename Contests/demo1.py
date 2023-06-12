@@ -17,3 +17,6 @@
 
 #import random
 #print(random.sample([i for i in range(9999)], 199))
+x = input()
+for i in range(10):
+    print(i,"hi")

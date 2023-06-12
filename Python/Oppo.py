@@ -68,31 +68,34 @@ def OppoEngine(gameCount,accounts,images,path):
     game=[]
     arr=[]
     pkgs=[]
-    print("Enter the games : ")
-    for _ in range(gameCount):
-        game.append(nameFormatter(input()))
+    choice = input("Do you want to download images Y/N?")
+    if choice == "y" or choice == "Y":
+        print("Enter the games : ")
+        for _ in range(gameCount):
+            game.append(nameFormatter(input()))
 
     print("\nEnter the packages of games : ")
     for _ in range(gameCount):
-            s2=input()
-            pkgs.append(s2)
-            s=s1+s2+s3
-            arr.append(s)
+        s2=input()
+        pkgs.append(s2)
+        s=s1+s2+s3
+        arr.append(s)
             
     for epoch in range(accounts):
         if epoch<1:
             gamePageOpen(arr)
-            time.sleep(7)
-            
-            #if any previous images exist, delete them
-            os.chdir(path)
-            if os.path.exists("images"):
-                print("Previous images are deleted...")
-                shutil.rmtree("images")
-            
-            for i in range(gameCount):
-                imageGenerator(game[i], pkgs[i], images, path)
-            print("Image Downloaded successfully :) ")
+            if choice == "y" or choice == "Y":
+                time.sleep(7)
+                
+                #if any previous images exist, delete them
+                os.chdir(path)
+                if os.path.exists("images"):
+                    print("Previous images are deleted...")
+                    shutil.rmtree("images")
+                
+                for i in range(gameCount):
+                    imageGenerator(game[i], pkgs[i], images, path)
+                print("Image Downloaded successfully :) ")
         else:
             print("Ready to enter the credentials of account",epoch+1," ?")
             if input()=="":
