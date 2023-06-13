@@ -1,10 +1,11 @@
 ## Javascript Prerequisites
 var, let, const, array (Shallow and Hard copying, Concat), function (Fat Arrow), sort, <br />
-Design : Imperative & Declarative (Map, Filter) <br />
+(Global/ Function) Execution Context (Memory, Code), Design : Imperative & Declarative (Map, Filter) <br />
 Splice & Slice, this, Rest and Spread Operator, Objects (keys, values), <br />
 Asynchronous js, Promises ,JSON, API
 
 ## REACT
+
 ###  Day 1
 Why?
 - Declarative
@@ -15,7 +16,7 @@ Function Based Component, Props
 
 ###  Day 2
 Manipulating array with Map and insert into Table
-Class based Component
+Hooks, Class based Components (Construct, Prototype, Static)
 
 
 ### Links

@@ -1,7 +1,10 @@
 import React from 'react'
+import FullName from './FullName'
 
-export default function section() {
+export default function section(props) {
   return (
-    <div>section</div>
+    <div>
+      <FullName fname={props.fname} lname={props.lname} /> Pleased to meet you.
+    </div>
   )
 }

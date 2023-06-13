@@ -2,7 +2,7 @@ import About from './components/About.js';
 
 var name = "Ichigo"
 var surname = "Kurosaki"
-var arr= ["Byakuya Kuchiki", "Toshiro Hitsugaya", "Gin Ichimaru", "Kenpachi Zaraki"]
+var friends= ["Uryu Ishida","Orihime Inoue","Yasutora Sado"]
 var shinigami = {
   Alias : "Kisuke Urahara",
   Bankai : "Kanon Biraki Benihime Aratame",
@@ -14,18 +14,19 @@ function App() {
     <div>
       <header>
         <h1>Subhadeep Mandal</h1>
-        {arr[0]}
-        <About fname={name} lname={surname} and death={shinigami} />
+        <About fname={name} lname={surname} dost={friends} death={shinigami} />
       </header>
-      {header}
+      {main}
     </div>
   );
 }
 
-const header = (
-  <header>
-        <h1>This is header</h1>
-      </header>
-);
+const myStyle = {
+  color : 'red',
+  backgroundColor:"pink"
+}
 
+const main = (
+  <q style={myStyle}>Woah! This is boring</q>
+);
 export default App;

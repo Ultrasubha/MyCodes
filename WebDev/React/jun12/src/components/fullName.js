@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Adfar(props) {
+export default function FullName(props) {
   return (
     <div>
-        <footer>My fullname is {props.fname} {props.lname}</footer>
+        <pre>Hi I am {props.fname} {props.lname}</pre>
     </div>
   )
 }
