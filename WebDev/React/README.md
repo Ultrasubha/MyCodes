@@ -5,9 +5,20 @@ Splice & Slice, this, Rest and Spread Operator, Objects (keys, values), <br />
 Asynchronous js, Promises ,JSON, API
 
 ## REACT
+###  Day 1
 Why?
 - Declarative
 - Component (Function, Class) Based => Reusablity
 - Single Page Application
 - Virtual DOM -> (Diffing Algo)
-Props
+Function Based Component, Props
+
+###  Day 2
+Manipulating array with Map and insert into Table
+Class based Component
+
+
+### Links
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3
+https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd
+https://www.geeksforgeeks.org/what-is-the-rest-parameter-and-spread-operator-in-javascript/

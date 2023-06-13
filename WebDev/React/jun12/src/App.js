@@ -1,16 +1,21 @@
-import About from './About.js';
-import Adfar from './Adfar.js';
+import About from './components/About.js';
 
-var name = "Adfar"
-var surname = "Rashid"
+var name = "Ichigo"
+var surname = "Kurosaki"
+var arr= ["Byakuya Kuchiki", "Toshiro Hitsugaya", "Gin Ichimaru", "Kenpachi Zaraki"]
+var shinigami = {
+  Alias : "Kisuke Urahara",
+  Bankai : "Kanon Biraki Benihime Aratame",
+  Gotei : 13,
+  SoulReapers : ["Byakuya Kuchiki", "Toshiro Hitsugaya", "Gin Ichimaru", "Kenpachi Zaraki"]
+}
 function App() {
   return (
     <div>
       <header>
         <h1>Subhadeep Mandal</h1>
-        <About fname={name}/>
-        <About fname="Ritik"/>
-        <Adfar fname={name} lname={surname} />
+        {arr[0]}
+        <About fname={name} lname={surname} and death={shinigami} />
       </header>
       {header}
     </div>
