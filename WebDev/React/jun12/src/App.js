@@ -1,4 +1,6 @@
 import About from './components/About.js';
+import Mapping from './Mapping.js';
+import Classbased from './components/Classbased.js';
 
 var name = "Ichigo"
 var surname = "Kurosaki"
@@ -17,6 +19,8 @@ function App() {
         <About fname={name} lname={surname} dost={friends} death={shinigami} />
       </header>
       {main}
+      <Mapping />
+      <Classbased name="Sosuke Aizen" arr={["Adfar",25,"React"]}/>
     </div>
   );
 }

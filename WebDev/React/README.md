@@ -18,6 +18,9 @@ Function Based Component, Props
 Manipulating array with Map and insert into Table
 Hooks, Class based Components (Construct, Prototype, Static)
 
+###  Day 3
+Class (Inheritence, super), render ,3 phases of Component(Mounting, Updating, Unmounting)
+React State
 
 ### Links
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3
