@@ -2,7 +2,7 @@
 var, let, const, array (Shallow and Hard copying, Concat), function (Fat Arrow), sort, <br />
 (Global/ Function) Execution Context (Memory, Code), Design : Imperative & Declarative (Map, Filter) <br />
 Splice & Slice, this, Rest and Spread Operator, Objects (keys, values), <br />
-Asynchronous js, Promises ,JSON, API
+Asynchronous js, Promises (Pending, Fulfilled, Rejected) ,JSON, API
 
 ## REACT
 
@@ -20,7 +20,7 @@ Hooks, Class based Components (Construct, Prototype, Static)
 
 ###  Day 3
 Class (Inheritence, super), render ,3 phases of Component(Mounting, Updating, Unmounting)
-React State
+React State, Conditional Rendering
 
 ### Links
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3

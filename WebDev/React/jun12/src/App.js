@@ -1,6 +1,7 @@
 import About from './components/About.js';
 import Mapping from './Mapping.js';
 import Classbased from './components/Classbased.js';
+import Functionstate from './components/Functionstate.js';
 
 var name = "Ichigo"
 var surname = "Kurosaki"
@@ -21,6 +22,7 @@ function App() {
       {main}
       <Mapping />
       <Classbased name="Sosuke Aizen" arr={["Adfar",25,"React"]}/>
+      <Functionstate />
     </div>
   );
 }
