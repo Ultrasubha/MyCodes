@@ -12,5 +12,5 @@ def purified(s):
         if s1[i]==s1[i+1]:
             return purified(s1)
     return s1
-s="wwstdaadierfflitzzz"
-print(purified(s))
+#s="wwstdaadierfflitzzz"
+print(purified(input()))
