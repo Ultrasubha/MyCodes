@@ -23,7 +23,9 @@ Class (Inheritence, super), render ,3 phases of Component(Mounting, Updating, Un
 React State, Conditional Rendering
 
 ###  Day 4
-Component (Controlled + Uncontrolled)
+(Class, Function) Based Component (Controlled + Uncontrolled)
+CSS Refresher : Div,Grid, Flex(Main, Cross) axis
+Selectors (Child, Descenedent)
 
 ### Links
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3
