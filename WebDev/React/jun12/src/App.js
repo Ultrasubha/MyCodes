@@ -2,6 +2,10 @@ import About from './components/About.js';
 import Mapping from './Mapping.js';
 import Classbased from './components/Classbased.js';
 import Functionstate from './components/Functionstate.js';
+import FormUncontrolledclass from './components/FormUncontrolledclass.js';
+import Formuncontrolledfunction from './components/Formuncontrolledfunction.js';
+import Classcontrolled from './components/Classcontrolled.js';
+import Functioncontrolled from './components/Functioncontrolled.js';
 
 var name = "Ichigo"
 var surname = "Kurosaki"
@@ -23,6 +27,10 @@ function App() {
       <Mapping />
       <Classbased name="Sosuke Aizen" arr={["Adfar",25,"React"]}/>
       <Functionstate />
+      <FormUncontrolledclass/>
+      <Formuncontrolledfunction/>
+      <Classcontrolled />
+      <Functioncontrolled />
     </div>
   );
 }

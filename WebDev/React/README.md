@@ -22,6 +22,9 @@ Hooks, Class based Components (Construct, Prototype, Static)
 Class (Inheritence, super), render ,3 phases of Component(Mounting, Updating, Unmounting)
 React State, Conditional Rendering
 
+###  Day 4
+Component (Controlled + Uncontrolled)
+
 ### Links
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3
 https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd
