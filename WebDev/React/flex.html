@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+            text-align: center;
+            column-gap: 10px;
+            row-gap:20px;
+        }
+        .grid-item {
+            border: 2px solid brown;
+        }
+
+        .grid-item1 {
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .grid-item1 {
+            grid-area: 1/1/2/2;
+        }
+
+        .grid-item:nth-child(odd) {
+            background-color: gray;
+        }
+
+        .grid-item:nth-child(even) {
+            background-color: green;
+        }
         .main-container {
             border: 2px solid red;
             display: flex;
@@ -22,8 +49,8 @@
             font-size: small;
         }
 
-        .main-container > div:nth-child(even) {
-            background-color: antiquewhite;
+        .main-container > div:nth-child(odd) {
+            background-color: greenyellow;
         }
 
         .main-container > div:nth-child(even) {
@@ -32,27 +59,18 @@
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="grid-item grid-item1">A</div>
+        <div class="grid-item grid-item2">B</div>
+        <div class="grid-item grid-item3">C</div>
+        <div class="grid-item grid-item4">D</div>
+        <div class="grid-item grid-item5">E</div>
+        <div class="grid-item grid-item6">F</div>
+        <div class="grid-item grid-item7">G</div>
+        <div class="grid-item grid-item8">H</div>
+        <div class="grid-item grid-item9">I</div>
+    </div>
     <div class="main-container">
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
-        <div>A</div>
-        <div>B</div>
-        <div>C</div>
-        <div>D</div>
         <div>A</div>
         <div>B</div>
         <div>C</div>

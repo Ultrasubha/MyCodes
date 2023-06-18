@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+            text-align: center;
+            gap: 10px;
+        }
+        .grid-item {
+            border: 2px solid brown;
+        }
+
+        .grid-itemA {
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+
+        .grid-itemB {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .grid-itemC {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+        }
+
+        .grid-itemD {
+            grid-row-start: 2;
+            grid-column-start: 3;
+        }
+
+        .grid-itemE {
+            grid-row-start: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .grid-item:nth-child(odd) {
+            background-color: firebrick;
+        }
+
+        .grid-item:nth-child(even) {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-item grid-itemA">A</div>
+        <div class="grid-item grid-itemB">B</div>
+        <div class="grid-item grid-itemC">C</div>
+        <div class="grid-item grid-itemD">D</div>
+        <div class="grid-item grid-itemE">E</div>
+    </div>
+</body>
