@@ -6,6 +6,12 @@ import FormUncontrolledclass from './components/FormUncontrolledclass.js';
 import Formuncontrolledfunction from './components/Formuncontrolledfunction.js';
 import Classcontrolled from './components/Classcontrolled.js';
 import Functioncontrolled from './components/Functioncontrolled.js';
+import Project1 from './components/Project1/Project1.js';
+import LifeCycleMethods from './components/Project1/LifeCycleMethods.js';
+import ShouldComponentUpdate from './components/Project1/ShouldComponentUpdate.js';
+import ColorChange from './Assessment/ColorChange.js';
+import FunctionEffect from './Assessment/FunctionEffect.js';
+import UseReducer from './Assessment/UseReducer.js';
 
 var name = "Ichigo"
 var surname = "Kurosaki"
@@ -19,7 +25,7 @@ var shinigami = {
 function App() {
   return (
     <div>
-      <header>
+      {/*<header>
         <h1>Subhadeep Mandal</h1>
         <About fname={name} lname={surname} dost={friends} death={shinigami} />
       </header>
@@ -31,6 +37,12 @@ function App() {
       <Formuncontrolledfunction/>
       <Classcontrolled />
       <Functioncontrolled />
+      <Project1/>
+      <LifeCycleMethods />
+      <ShouldComponentUpdate />
+      <ColorChange />
+      <FunctionEffect />*/}
+      <UseReducer />
     </div>
   );
 }

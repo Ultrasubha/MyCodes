@@ -27,7 +27,30 @@ React State, Conditional Rendering
 CSS Refresher : Div,Grid, Flex(Main, Cross) axis
 Selectors (Child, Descenedent)
 
+### Day 5
+Project1
+
+###  Day 6
+TextArea
+LifeCycle Methods 
+- constructor() - runs before everything
+- getDerivedStateFromProps() - runs before rendering
+- render()
+- componentDidMount() - for Networking,API, Async
+shouldComponentUpdate() - returns boolean, already mounted so runs before render
+componentDidUpdate()
+
+###  Day 6
+CSS with react (module.css)
+Hooks (useState(), useEffect())
+
+###  Day 7
+useEffect() as cleanup Function
+useReducer()
+context API
+
 ### Links
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3
 https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd
 https://www.geeksforgeeks.org/what-is-the-rest-parameter-and-spread-operator-in-javascript/
+https://www.w3schools.com/react/react_lifecycle.asp
