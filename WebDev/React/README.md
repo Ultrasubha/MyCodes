@@ -47,7 +47,7 @@ Hooks (useState(), useEffect())
 ###  Day 7
 useEffect() as cleanup Function
 useReducer()
-context API
+Prelude to context API
 
 ### Links
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort3
