@@ -12,6 +12,7 @@ import ShouldComponentUpdate from './components/Project1/ShouldComponentUpdate.j
 import ColorChange from './Assessment/ColorChange.js';
 import FunctionEffect from './Assessment/FunctionEffect.js';
 import UseReducer from './Assessment/UseReducer.js';
+import Jokes from './Assessment/Jokes.js';
 
 var name = "Ichigo"
 var surname = "Kurosaki"
@@ -41,8 +42,9 @@ function App() {
       <LifeCycleMethods />
       <ShouldComponentUpdate />
       <ColorChange />
-      <FunctionEffect />*/}
-      <UseReducer />
+      <FunctionEffect />
+      <UseReducer />*/}
+      <Jokes />
     </div>
   );
 }
