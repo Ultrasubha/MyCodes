@@ -89,4 +89,4 @@ def expo(x,n,m):        #T(n) = O(log(n)) space = O(1)
 
 M = 1000000007
 
-print(expo(2, 5,M))
+print(divisorsOf(15))
