@@ -9,19 +9,16 @@ def log2(num):
 def decimalToBinary(n):
     return bin(n).replace("0b", "")
 
-def swappNumbers(a,b):
+def swapNumbers(a,b):
     a^=b
     b^=a
     a^=b
     return a,b
-
+    
 def firstSetBit(n):
     if n==0:
         return 0
-    return n&(-n)
-
-def firstSetBitPosition(n):
-    return int(log2(firstSetBit(n)))
+    return int(log2(n&(-n)))
 
 def countSetBits(n):
     cnt=0
@@ -35,5 +32,10 @@ def flippedNumber(num):
     while k<num:
         k<<=1
     return k-1-num
+
+def powerOfTwo(n):
+    if n&(n-1):
+        return False
+    return True
         
-print(log2(10))
+print(firstSetBit(12))
