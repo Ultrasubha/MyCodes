@@ -109,5 +109,4 @@ class Student:Person{
     }
 }
 
-var stu = Student(R:12006389,n:"Subhadeep",a:27)
-print(stu.show())
+Student(R:12006389,n:"Subhadeep",a:27).show()
