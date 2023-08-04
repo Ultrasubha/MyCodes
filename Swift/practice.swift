@@ -48,7 +48,7 @@ struct Person {
 }
 var p = Person()
 p.setName(n:"Subho")
-print(p.getName())*/
+print(p.getName())
 struct check {
     private var name = "value"
     init(){
