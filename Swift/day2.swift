@@ -1,3 +1,5 @@
+import UIKit
+
 //OPTIONAL & FORCED UNWRAPPING
 var s1:String?
 s1="fg"
