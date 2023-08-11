@@ -35,3 +35,11 @@ print(p.show())
 //CLOSURE
 var sum = {(a:Int, b:Int) -> Int in return a + b }
 print(sum(2,3))
+
+//CLOSURE AS FUNCTION PARAM
+func set(_ a1:Int, _ a2:Int, S:(Int,Int) -> Int) -> Int {
+    return S(a1, a2)
+}
+print(set(23, 21, S:sum))
+
+
