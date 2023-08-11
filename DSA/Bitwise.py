@@ -38,4 +38,4 @@ def powerOfTwo(n):
         return False
     return True
         
-print(firstSetBit(12))
+print(flippedNumber(12))

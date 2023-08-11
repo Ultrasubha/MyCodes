@@ -17,6 +17,8 @@
 
 #import random
 #print(random.sample([i for i in range(9999)], 199))
-x = input()
-for i in range(10):
-    print(i,"hi")
+# doubled(obj):
+#    return obj[:-2]
+#x = list(map(lambda s: s[:-2],["gold 2", "red 1", "green 3", "blue 5"]))
+y = ["hi 5", "lo 1", "hello 3", "world 4"]
+print(y.find("lo"))
