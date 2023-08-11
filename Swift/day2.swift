@@ -42,4 +42,7 @@ func set(_ a1:Int, _ a2:Int, S:(Int,Int) -> Int) -> Int {
 }
 print(set(23, 21, S:sum))
 
+//TUPLE
+var tuple = (101,"lpu","GT road")
+print("This is \(tuple.0)", tuple.1)
 
