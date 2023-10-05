@@ -125,3 +125,33 @@ pm uninstall --user 0 com.yozo.vivo.office
 pm uninstall --user 0 com.google.android.apps.youtube.music
 pm uninstall --user 0 com.vivo.Tips
 pm uninstall --user 0 com.vivo.browser
+
+Realme:
+pm uninstall --user 0 com.heytap.browser
+pm uninstall --user 0 com.heytap.browser
+pm uninstall --user 0 com.facebook.appmanager
+pm uninstall --user 0 com.facebook.services
+pm uninstall --user 0 com.google.android.googlequickserachbox
+pm uninstall --user 0 com.heytap.synergy
+pm uninstall --user 0 com.heytap.cloud
+pm uninstall --user 0 com.opos.cs
+pm uninstall --user 0 com.heytap.pictorial
+pm uninstall --user 0 com.heytap.music
+pm uninstall --user 0 com.oppo.operationManual
+pm uninstall --user 0 com.coloros.video
+pm uninstall --user 0 com.redteamobile.roaming
+pm uninstall --user 0 com.google.android.apps.magazines
+pm uninstall --user 0 com.heytap.pictorial
+pm uninstall --user 0 com.glance.internet
+pm uninstall --user 0 com.heytap.games
+pm uninstall --user 0 com.realme.link
+pm uninstall --user 0 com.realmestore.app
+pm uninstall --user 0 com.oplus.
+pm uninstall --user 0 com.coloros.phonemanager
+pm uninstall --user 0 com.realme.wellbeing
+pm uninstall --user 0 com.oplus.ocloud
+pm uninstall --user 0 com.oplus.heartrate.detect
+pm uninstall --user 0 com.coloros.oshare
+pm uninstall --user 0 com.coloros.compass2
+pm uninstall --user 0 com.coloros.childrenspace
+pm uninstall --user 0 com.coloros.oshare
