@@ -61,11 +61,11 @@ def isPrime(n):         #T(n) = θ(√n)
     
 def divisorsOf(n):      #T(n) = θ(√n) space = θ(1)
     arr=[]
-    sqrt = int(n**0.5) + 1
+    sqrt = int(n**0.5) + 3
     for i in range(1,sqrt):
         if n%i==0:
             arr.append(i)
-    for j in reversed(range(1,i)):
+    for j in reversed(range(1,i-2)):
         if n%j==0:
             arr.append(n//j)
     return arr
@@ -89,4 +89,6 @@ def expo(x,n,m):        #T(n) = O(log(n)) space = O(1)
 
 M = 1000000007
 
-print(divisorsOf(15))
+for i in range(250):
+    if isPrime(i):
+        print(i, end=" ")
