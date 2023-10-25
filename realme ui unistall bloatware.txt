@@ -128,7 +128,8 @@ pm uninstall --user 0 com.vivo.browser
 
 Realme:
 pm uninstall --user 0 com.heytap.browser
-pm uninstall --user 0 com.heytap.browser
+pm uninstall --user 0 com.google.android.youtube
+pm uninstall --user 0 com.google.android.apps.youtube.music
 pm uninstall --user 0 com.facebook.appmanager
 pm uninstall --user 0 com.facebook.services
 pm uninstall --user 0 com.google.android.googlequickserachbox
@@ -155,3 +156,5 @@ pm uninstall --user 0 com.coloros.oshare
 pm uninstall --user 0 com.coloros.compass2
 pm uninstall --user 0 com.coloros.childrenspace
 pm uninstall --user 0 com.coloros.oshare
+pm uninstall --user 0 com.google.android.projection.gearhead
+
