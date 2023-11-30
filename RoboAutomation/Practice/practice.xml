@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<project>
+<environment name="dev">
+<url>https://www.facebook.com</url>
+<userEmail>testuser1@gmail.com</userEmail> <userPassword>Password123</userPassword>
+<screenshotPath>D:\rpa ScreenshotDev</screenshotPath>
+</environment>
+<environment name="qa">
+<url>https://www.facebook.comqa</url> <userEmail>testuser1@gamil.com</userEmail>
+<userPassword>Password123</userPassword>
+<screenshotPath>D:\rpa ScreenshotQa</screenshotPath>
+</environment>
+</project>
