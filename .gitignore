@@ -1,6 +1,8 @@
 *.exe
 *.class
 *.log
+/venv
+*env
 /RPA
 /timeTableManagementSystem
 tempCodeRunner*
