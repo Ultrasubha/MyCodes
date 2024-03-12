@@ -1,0 +1,4 @@
+- Went through video A, understood about the workflow at a high level
+- Practiced Django-Rest API
+- Practiced React
+- Created a bot to automate my workflow
