@@ -1,6 +1,6 @@
 *.exe
 *.class
 *.log
+/RPA
+/timeTableManagementSystem
 tempCodeRunner*
-Contests/a.png
-Contests/image-file-compressed.JPEG

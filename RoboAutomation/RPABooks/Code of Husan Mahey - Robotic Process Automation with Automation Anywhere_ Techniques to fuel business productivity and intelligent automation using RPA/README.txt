@@ -1,1 +1,0 @@
-Only chapter 5,8,9,10,11,12,14,15,17 and 18 has files which are required while reading book

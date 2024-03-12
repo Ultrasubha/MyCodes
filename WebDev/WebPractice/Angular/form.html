@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+</script>
+</head>
+<body>
+	<div ng-app="app1" ng-controller="test" ng-init="a=10;course='btech';arr=[1,2,3,5];">
+	<input type="text" ng-model="myname"/>
+	<p ng-bind="myname"> </p> <br>
+	<p>{{a}}</p> <br>
+	<p>{{x+y}}</p>
+	<p>{{arr[2]}}</p> <br>
+	Name<input type="text" name="value" value="{{Name}}"><br>
+	Email<input type="text" name="value" value="{{Email}}"><br>
+	Contact_No<input type="text" name="value" value="{{Contact_No}}"><br>
+	Address<input type="text" name="value" value="{{Address}}">
+	</div>
+
+<script>
+	var ap=angular.module('app1',[]);
+
+	ap.controller('test',function($scope){
+		$scope.Name="Subhadeep Mandal",
+		$scope.Email="ultrasubha@gmail.com",
+		$scope.Contact_No= 123,
+		$scope.Address="Oompa Loompa Land"
+	});
+</script>
+</body>
+</html>
