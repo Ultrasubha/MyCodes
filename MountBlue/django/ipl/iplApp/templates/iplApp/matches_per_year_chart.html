@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matches per Year Chart</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div id="matchesPerYearChart"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Highcharts.chart('matchesPerYearChart', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Matches per Year'
+                },
+                xAxis: {
+                    categories: [{% for entry in chart_data %}"{{ entry.name }}", {% endfor %}]
+                },
+                yAxis: {
+                    title: {
+                        text: 'Total Matches'
+                    }
+                },
+                series: [{
+                    name: 'Matches',
+                    data: [{% for entry in chart_data %}{{ entry.y }}, {% endfor %}]
+                }]
+            });
+        });
+    </script>
+</body>
+</html>

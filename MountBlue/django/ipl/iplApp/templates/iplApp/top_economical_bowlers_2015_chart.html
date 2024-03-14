@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Economical Bowlers in 2015 Chart</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div id="topEconomicalBowlersChart"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Highcharts.chart('topEconomicalBowlersChart', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Top Economical Bowlers in 2015'
+                },
+                xAxis: {
+                    categories: [{% for entry in chart_data %}"{{ entry.name }}", {% endfor %}]
+                },
+                yAxis: {
+                    title: {
+                        text: 'Economy Rate'
+                    }
+                },
+                series: [{
+                    name: 'Economy Rate',
+                    data: [{% for entry in chart_data %}{{ entry.y }}, {% endfor %}]
+                }]
+            });
+        });
+    </script>
+</body>
+</html>

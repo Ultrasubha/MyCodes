@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extra Runs Conceded in 2016 Chart</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div id="extraRunsConcededChart"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Highcharts.chart('extraRunsConcededChart', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Extra Runs Conceded in 2016'
+                },
+                xAxis: {
+                    categories: [{% for entry in chart_data %}"{{ entry.name }}", {% endfor %}]
+                },
+                yAxis: {
+                    title: {
+                        text: 'Extra Runs'
+                    }
+                },
+                series: [{
+                    name: 'Extra Runs',
+                    data: [{% for entry in chart_data %}{{ entry.y }}, {% endfor %}]
+                }]
+            });
+        });
+    </script>
+</body>
+</html>

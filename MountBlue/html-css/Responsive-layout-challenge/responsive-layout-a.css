@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+header, footer {
+  background-color: #CCCCCC; /* Gray */
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /*flex: 1;  Allow the container to grow and take up remaining vertical space */
+}
+
+.content-a {
+  background-color: red; /* Red */
+  height: 200px;
+  width : 900px;
+}
+
+.content-b {
+  background-color: orange; /* Dark Yellow */
+  height: 200px;
+  width : 900px;
+}
+
+.content-c {
+  background-color: yellow; /* Light Yellow */
+  height: 400px;
+  width: 15%;
+  float: right;
+}
+
+.abparent {
+  width: 55%;
+  float: left;
+}

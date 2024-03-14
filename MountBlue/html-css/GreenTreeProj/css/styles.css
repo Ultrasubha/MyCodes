@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Flood Std";
+  src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot");
+  src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #354463;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+button {
+  color: inherit;
+  background-color: #C1F7D5;
+  border-radius: 3.125rem;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  margin: 1rem;
+  border: hidden;
+  text-align: center;
+}
+
+li a {
+  color: #354463;
+  text-decoration: none;
+  padding: 0.313rem 0.313rem;
+  border-radius: 0.313rem;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+}
+
+a:link {
+  color: inherit;
+  background-color: inherit;
+}
+
+a:visited {
+  color: inherit;
+  background-color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  background-color: inherit;
+}
+
+a:active {
+  color: inherit;
+  background-color: inherit;
+}
+
+.imgdefault {
+  background-color: rgba(0, 0, 0, 0.76);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80%;
+}
+
+.emboldenedText {
+  font-weight: bold;
+  padding: 0.313rem;
+}
+
+.shuntedText {
+  font-size: 0.625rem;
+  padding-top: 0.313rem;
+}
+
+/* Styles for Mobile (up to 376px wide) */
+@media only screen and (max-width: 376px) {
+  .flood {
+    font: normal normal normal 2rem Flood Std;
+    color: white;
+  }
+
+  header {
+    background-color: white;
+    text-align: justify;
+    padding: 1rem;
+  }
+
+  header>button {
+    padding: 0.5rem 6rem 0.5rem 6.5rem;
+    margin-left: 10%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li a:hover {
+    background-color: #00000029;
+  }
+
+  footer>section:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 7%;
+  }
+
+  footer>section:nth-child(1)>div>h3 {
+    margin: 0;
+    font-size: medium;
+  }
+
+  footer>section:nth-child(1)>div {
+    width: 40%;
+    padding: 4%;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}
+
+/* Styles for Tablet (between 377px and 768px wide) */
+@media only screen and (min-width: 377px) and (max-width: 768px) {}
+
+/* Styles for Desktop (769px wide and above) */
+@media only screen and (min-width: 769px) {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  nav {
+    text-align: center;
+    flex-grow: 1; /* Takes up remaining space */
+  }
+  header {
+    width: 100%;
+    padding: 1.5rem 4.5rem 1.5rem 4.5em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .flood {
+    font: normal normal normal 3rem Flood Std;
+    color: white;
+  }
+
+  .shuntedText {
+    font-size: 0.65rem;
+    padding-top: 0.313rem;
+  }
+
+  .emboldenedText {
+    font-size: x-large;
+  }
+}

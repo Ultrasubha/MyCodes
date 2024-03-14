@@ -1,0 +1,131 @@
+/* Styles for Mobile (up to 376px wide) */
+@media only screen and (max-width: 376px) {
+    .donateBlock {
+        background-image: url("../img/donation/annie-spratt-427340-unsplash.png");
+        padding: 8%;
+    }
+
+    article {
+        background-color: #354463;
+        padding: 5%;
+    }
+
+    .info_form {
+        display: grid;
+        grid-template-areas:
+            'first_name first_name last_name last_name'
+            'street_address street_address street_address street_address'
+            'city city state zip_code'
+            'email email email email';
+        grid-gap: 1rem;
+        /* width: 100%; */
+        /* grid-template-columns: repeat(1fr, 4); */
+    }
+
+    .pay_form {
+        display: grid;
+        grid-template-areas:
+            'credit_card credit_card credit_card credit_card'
+            'expiration_date expiration_date security security';
+        grid-gap: 1rem;
+    }
+
+    select,
+    input {
+        width: 100%;
+        background-color: inherit;
+        border: hidden;
+        border-bottom: 2px solid #C1F7D5;
+        color: lightgrey;
+    }
+
+    select {
+        color: #C1F7D5;
+        ;
+    }
+
+    label {
+        color: white;
+        font-size: 9px;
+    }
+
+    .first_name {
+        grid-area: first_name;
+    }
+
+    .last_name {
+        grid-area: last_name;
+    }
+
+    .street_address {
+        grid-area: street_address;
+    }
+
+    .city {
+        grid-area: city;
+    }
+
+    .state {
+        grid-area: state;
+    }
+
+    .zip_code {
+        grid-area: zip_code;
+    }
+
+    .email {
+        grid-area: email;
+    }
+
+    .credit_card {
+        grid-area: credit_card;
+    }
+
+    .expiration_date {
+        grid-area: expiration_date;
+    }
+
+    .security {
+        grid-area: security;
+    }
+
+    .expiration_date>div {
+        display: flex;
+    }
+
+    .expiration_date>div>input {
+        width: 40%;
+        margin-right: 15%;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    button {
+        padding: 3% 20% 3% 20%;
+    }
+
+    .goBack {
+        color: #C1F7D5;
+        text-decoration: underline;
+    }
+
+    .emboldenedText {
+        font-size: x-large;
+    }
+
+    .largeText {
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+/* Styles for Tablet (between 377px and 768px wide) */
+@media only screen and (min-width: 377px) and (max-width: 768px) {}
+
+/* Styles for Desktop (769px wide and above) */
+@media only screen and (min-width: 769px) {}

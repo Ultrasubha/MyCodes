@@ -1,0 +1,542 @@
+.ourWorkFlex>div:first-child>div:first-child {
+  background-image: url("../img/home/tree-planting.png");
+}
+
+.ourWorkFlex>div:nth-child(2)>div:first-child {
+  background-image: url("../img/home/education-training.png");
+}
+
+.ourWorkFlex>div:nth-child(3)>div:first-child {
+  background-image: url("../img/home/advocacy.png");
+}
+
+
+/* Styles for Mobile (up to 376px wide) */
+@media only screen and (max-width: 376px) {
+  .issueParent {
+    background-image: url("../img/home/annie-spratt-135307-unsplash.png");
+    width: 1fr;
+    padding: 8%;
+    text-align: center;
+  }
+
+  .flexissue > div:first-child {
+    padding-right: 50%;
+  }
+
+  .issue {
+    background-color: white;
+    padding: 2% 10% 10% 10%;
+    margin-top: 250px;
+  }
+
+  .blackbox {
+    background-color: #354463;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    margin: 0% 25% 0% 25%;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .issue>.blackbox {
+    position: relative;
+    top: -25px;
+  }
+
+  .takeAction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  .takeAction>div {
+    margin: 3%;
+    width: 130px;
+  }
+
+  .takeActionBlackBox {
+    position: relative;
+    bottom: -50px;
+  }
+
+  .ourWork {
+    background-color: #354463;
+    padding: 5%;
+    text-align: center;
+  }
+
+  /* WHAT WE DO */
+  .ourWork>div:nth-child(1) {
+    background-color: white;
+    color: #354463;
+    text-align: center;
+    margin: 0% 25% 0% 25%;
+    padding: 2% 0% 2% 0%;
+  }
+
+  /* Our mission is to.. */
+  .ourWork>div:nth-child(2) {
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+
+  .pictorialBoard {
+    background-color: white;
+    margin-top: 40px;
+  }
+
+  .imgHeader {
+    height: 125px;
+    width: 200px;
+    position: relative;
+    top: -30px;
+    left: 60px;
+  }
+
+  .hungerSection {
+    background-image: url("../img/home/did-you-know-background.png");
+    padding: 10%;
+    background-position: 0%;
+  }
+
+  .whiteBox {
+    background-color: white;
+    padding: 10%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .whiteBox>div:nth-child(1) {
+    margin-right: 6%;
+  }
+
+  .whiteBox>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icons {
+    background-color: #C1F7D5;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .didYaKnowBlackBox {
+    position: relative;
+    top: 30px;
+  }
+
+  .story {
+    margin: 0% 0% 0% 0%;
+    padding: 15%;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .storyHead {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .storyHead > div:first-child > div:first-child {
+    position: relative;
+    top: 10px;
+  }
+
+  .storyHead > div:first-child > img {
+    width: 100%;
+  }
+
+  .earthDay {
+    background-color: #354463;
+    text-align: center;
+    padding: 5%;
+    color: white;
+  }
+
+  .earthDayContent {
+    padding-top:1rem;
+  }
+
+  .smallWhiteHeaderBox {
+    background-color: white;
+    padding: 2%;
+    width: 40%;
+    position: relative;
+    left: 90px;
+    top: -18rem;
+    color: #354463;
+  }
+
+  .greenScreen1 , .greenScreen {
+    background-color: #C1F7D5;
+    padding: 5%;
+  }
+
+  input {
+    border-radius: 25px;
+    border: hidden;
+    margin: 20px 5px 7px 5px;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .subscribe {
+    background-color: #354463;
+    color: #C1F7D5;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  footer > section:nth-child(2) {
+    padding-left: 50%; 
+    color:#354463;
+  }
+
+}
+
+/* Styles for Tablet (between 377px and 768px wide) */
+@media only screen and (min-width: 377px) and (max-width: 768px) {}
+
+/* Styles for Desktop (769px wide and above) */
+@media only screen and (min-width: 769px) {
+  header, nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /*new*/
+  .issueParent {
+    background-image: url("../img/home/annie-spratt-135307-unsplash.png");
+    padding: 4.5rem;
+    background-color: #354463;
+    width: 100%;
+  }
+
+  .flexissue {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .flexissue > div {
+   padding-left: 25%;
+  }
+
+  .issue {
+    background-color: white;
+    padding: 1.3rem;
+    width: 50%;
+  }
+
+  .issue > div:nth-child(2) > div:first-child {
+    font-size: xx-large;
+  }
+
+  .issue > div:nth-child(2) > aside {
+    padding-top: 2rem;
+  }
+
+  .blackbox {
+    background-color: #354463;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    width:25%;
+    padding: 0.3rem;
+  }
+
+  .issue>.blackbox {
+    position: relative;
+    top: -2rem;
+  }
+
+  .takeAction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  .takeActionBlackBox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:-5.5rem;
+  }
+
+  .ourWork {
+    background-color: #354463;
+    padding: 3rem;
+    width: 100%;
+  }
+
+  /* WHAT WE DO */
+  .ourWork>div:nth-child(1) {
+    background-color: white;
+    color: #354463;
+    width:10rem;
+    font-size: small;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  /* Our mission is to.. */
+  .ourWork>div:nth-child(2) {
+    color: white;
+    font-weight: bolder;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .pictorialBoard {
+    background-color: white;
+    padding: 1rem;
+    width: 20rem;
+  }
+  
+  .ourWorkFlex {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+
+  .imgHeader {
+    height: 8rem;
+    width: 100%;
+    position: relative;
+    top: -3rem;
+    left: 2rem;
+    margin-bottom: -2rem;
+  }
+
+  .hungerSection {
+    background-image: url("../img/home/did-you-know-background.png");
+    background-position: 0%;
+    padding: 3rem;
+    display: flex;
+  }
+
+  .hungerSection > div:first-child {
+    width:35%;
+    padding: 3rem;
+  }
+
+  .hungerSection > div:nth-child(2) {
+    flex-grow: 1;
+  }
+
+  .whiteBox {
+    background-color: white;
+    padding: 5%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .whiteBox>div:nth-child(1) {
+    margin-right: 6%;
+  }
+
+  .whiteBox>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icons {
+    background-color: #C1F7D5;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .didYaKnowBlackBox {
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+  }
+
+  .storyHead {
+    padding: 5%;
+    text-align: center;
+  }
+  
+  .story {
+    width: 40%;
+    padding: 3rem;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align:start;
+    position: relative;
+    left: 10rem;
+    top: 7rem;
+  }
+
+  .storyHead > div:first-child{/* Stories pic frame */
+    float: right;
+    /* width: 10%; */
+  }
+
+  .storyHead > div:first-child > img{
+    height: 75%;
+    width: 75%;
+  }
+
+
+  .storyHead > div:first-child > div:first-child { /* Stories text */
+    position: relative;
+    top: 1rem;
+    left: 7rem;
+  }
+
+  .storyHead > button {
+    position: relative;
+    bottom: -9rem;
+    left:-3rem;
+    font-weight: bolder;
+  }
+
+  .earthDay {
+    margin-top: 10rem;
+    background-color: #354463;
+    text-align: center;
+    padding: 4% 10% 1% 10%;
+    color: white;
+  }
+
+  .earthDayContent {
+    display: flex;
+    padding: 3rem;
+  }
+
+  .revPic {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .revPic > .descriptions {
+    padding-right: 5rem;
+  }
+  
+  .earthDayContent > img {
+    height:40%;
+    width: 40%;
+  }
+
+  .unrevPic {
+    padding-left: 5rem;
+  }
+
+  .descriptions{
+    text-align: left;
+  }
+
+  .descriptions > div:nth-child(2) {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .descriptions > div:nth-child(3) {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .smallWhiteHeaderBox {
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+    margin-left: 1rem;
+    width: 30%;
+    color: #354463
+  }
+
+  .greenScreen1 {
+    background-color: #C1F7D5;
+    padding: 5%;
+  }
+
+  .greenScreen {
+    display: flex;
+    background-color: #C1F7D5;
+    padding: 2% 10% 2% 10%;
+  }
+  
+  .greenScreen > div {
+    width: 50%;
+  }
+
+  form {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  input {
+    border-radius: 25px;
+    border: hidden;
+    height: 50%;
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .subscribe {
+    background-color: #354463;
+    color: #C1F7D5;
+    width: 30%;
+  }
+
+  footer {
+    padding: 2% 10% 2% 10%;
+    display: flex;
+  }
+
+  footer > section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer > section:first-child {
+    width : 70%;
+  }
+
+  footer > section:nth-child(2) {
+    width: 30%;
+    color:#354463;
+    text-align: center;
+  }
+
+  footer > section > div {
+    width: 25%;
+    padding: 5%;
+  }
+
+  footer > section > div:first-child {
+    padding: 0%;
+  }
+
+  footer > section > div > div:first-child {
+    border-bottom: 2px solid black;
+    font-size: small;
+    margin-bottom: 0.5rem;
+  }
+
+  footer > section > div > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+  }
+}

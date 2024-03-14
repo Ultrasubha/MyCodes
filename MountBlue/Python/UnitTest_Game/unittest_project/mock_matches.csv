@@ -1,0 +1,8 @@
+id,season,city,date,team1,team2,toss_winner,toss_decision,result,dl_applied,winner,win_by_runs,win_by_wickets,player_of_match,venue,umpire1,umpire2,umpire3
+518,2015,Kolkata,2015-04-08,MI,KKR,KKR,field,normal,0,KKR,0,7,M Morkel,Eden Gardens,S Ravi,C Shamshuddin,
+519,2015,Chennai,2015-04-09,CSK,KKR,CSK,field,normal,0,CSK,1,0,A Nehra,"MA Chidambaram Stadium, Chepauk",RK Illingworth,VA Kulkarni,
+520,2015,Pune,2015-04-10,MI,CSK,MI,field,normal,0,MI,26,0,JP Faulkner,Maharashtra Cricket Association Stadium,SD Fry,CB Gaffaney,
+577,2016,Mumbai,2016-04-09,MI,KKR,MI,bat,normal,0,MI,0,9,AM Rahane,Wankhede Stadium,HDPK Dharmasena,CK Nandan,
+578,2016,Kolkata,2016-04-10,KKR,CSK,CSK,field,normal,0,KKR,0,9,AD Russell,Eden Gardens,S Ravi,C Shamshuddin,
+579,2016,Chandigarh,2016-04-11,MI,CSK,CSK,field,normal,0,MI,0,5,AJ Finch,"Punjab Cricket Association IS Bindra Stadium, Mohali",AK Chaudhary,VA Kulkarni,
+580,2016,Bangalore,2016-04-12,KKR,CSK,KKR,field,normal,0,CSK,45,0,AB de Villiers,M Chinnaswamy Stadium,HDPK Dharmasena,VK Sharma	,

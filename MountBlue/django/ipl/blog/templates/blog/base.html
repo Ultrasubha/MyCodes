@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+    {% if posts.1.author %}
+    <title>{{ posts.1.author }}</title>
+    {% else %}
+    <title>Empty</title>
+    {% endif %}
+</head>
+<body>
+    {% block content %} {% endblock %}
+</body>
+<html>
