@@ -1,8 +1,10 @@
-from .models import Lead
+'''Doc String'''
 from rest_framework import viewsets,permissions
-from serializers import LeadSerializer
+from .serializers import LeadSerializer
+from .models import Lead
 
-class LeadViewSet(viewsets.ModelViewSets):
+class LeadViewSet(viewsets.ModelViewSet):
+    '''DocString'''
     queryset = Lead.objects.all()
     permission_classes = [permissions.AllowAny]
     serializerClass = LeadSerializer

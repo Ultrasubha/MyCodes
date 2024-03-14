@@ -155,14 +155,17 @@ print(
     + "\n\nCopyright (C) Guava_Slice. All rights reserved.\n"
     + END
 )
+
+# Start of workflow
+os.chdir("D:\_WorkSpace\MyCodes\Python\Automate")
 yesterdayWork = yesterday(file)
 print(YELLOW + "What is your plan for today?" + END + "\n(type 'q' without '' in a newline when you are done typing)")
 todayWork = readMultiLines("q")
 webbrowser.open_new_tab("https://checkins.mountblue.io/")
-time.sleep(3)
+time.sleep(5)
 pyautogui.press("tab", presses=4)
 pyautogui.press("enter")
-time.sleep(3)
+time.sleep(4)
 pyautogui.press("tab", presses=4)
 pyautogui.write(random.choice(feeling))
 pyautogui.press("tab")
